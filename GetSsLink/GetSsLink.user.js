@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name         GetSsLink
+// @namespace    https://greasyfork.org/zh-CN/scripts/33887-getsslink
 // @homepage     https://github.com/sumspec/GetSsLink
 // @version      1.0
 // @date         2017-10-08
