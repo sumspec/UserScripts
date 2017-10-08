@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GetSsLink
 // @namespace    https://greasyfork.org/zh-CN/scripts/33887-getsslink
-// @homepage     https://github.com/sumspec/GetSsLink
+// @homepage     https://github.com/sumspec/UserScripts/tree/master/GetSsLink
 // @version      1.0
 // @date         2017-10-08
 // @description  获取逗比根据地分享的SS免费账号链接码
