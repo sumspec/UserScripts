@@ -2,14 +2,14 @@
 // @name         GetSsLink
 // @namespace    https://greasyfork.org/zh-CN/scripts/33887-getsslink
 // @homepage     https://github.com/sumspec/UserScripts/tree/master/GetSsLink
-// @version      1.0
+// @version      1.1
 // @date         2017-10-08
 // @description  获取逗比根据地分享的SS免费账号链接码
 // @author       sumspec
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
 // @include      https://doub.io/sszhfx/*
 // @include      https://doub.bid/sszhfx/*
-// @icon         https://doub.io/wp-content/themes/yusi1.0/img/logo.ico
+// @icon         https://doub.bid/wp-content/themes/yusi1.0/img/logo.ico
 // @run-at       document-end
 // @copyright    2017+,sumspec
 // @license      MIT License
@@ -42,10 +42,10 @@
 	//获取链接码
 	var ss_code = '', ssr_code = '';
 	$('.dl1').each(function(){
-		var ss_match = $(this).attr('href').match(/ss\:\/\/\w+/g);
-		var ssr_match = $(this).attr('href').match(/ssr\:\/\/\w+/g);
-		if (ss_match!==null) ss_code += ss_match[0] + '\r\n';
-		if (ssr_match!==null) ssr_code += ssr_match[0] + '\r\n';
+		var ss_match = $(this).attr('href').match(/ss\:\/\/\S+/g);
+		var ssr_match = $(this).attr('href').match(/ssr\:\/\/\S+/g);
+		if (ss_match!==null) ss_code += ss_match[0].replace('!','') + '\r\n';
+		if (ssr_match!==null) ssr_code += ssr_match[0].replace('!','') + '\r\n';
 	});
 	
 	//点击判断
