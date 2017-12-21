@@ -3,7 +3,7 @@
 // @namespace    https://greasyfork.org/zh-CN/scripts/33887-getsslink
 // @homepage     https://github.com/sumspec/UserScripts/tree/master/GetSsLink
 // @version      1.1
-// @date         2017-10-08
+// @date         2017-12-21
 // @description  获取逗比根据地分享的SS免费账号链接码
 // @author       sumspec
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
